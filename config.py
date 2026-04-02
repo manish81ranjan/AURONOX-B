@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-
+const API_BASE = import.meta.env.VITE_API_BASE;
 class Config:
     SECRET_KEY = os.getenv("SECRET_KEY", "auronox-secret-key")
 
