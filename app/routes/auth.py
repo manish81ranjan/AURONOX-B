@@ -109,7 +109,6 @@ def login():
         }
     }), 200
 
-
 @auth_bp.route("/me", methods=["GET"])
 def me():
     db = get_db()
